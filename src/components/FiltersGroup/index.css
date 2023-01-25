@@ -1,0 +1,114 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+
+.category-list {
+  list-style: none;
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.category {
+  border: none;
+  background-color: transparent;
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #64748b;
+  margin-bottom: 0px;
+}
+
+.category-heading {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #12022f;
+  font-weight: 600;
+  margin-top: 15px;
+}
+.rating-img {
+  width: 100px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.rating-list-item {
+  display: flex;
+  align-items: center;
+}
+.rating-text {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #64748b;
+}
+
+.clear-filters-btn {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 700;
+  color: #0967d2;
+  border: 2px solid #0967d2;
+  background-color: transparent;
+  border-radius: 5px;
+  height: 35px;
+  width: 120px;
+}
+
+.search-input-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 30px;
+  border: none;
+  background-color: #f1f5f9;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.search-input {
+  padding: 5px;
+  flex-grow: 1;
+  font-family: 'Roboto';
+  font-size: 13px;
+  height: 100%;
+  border: none;
+  background-color: transparent;
+  font-weight: 600;
+  outline: none;
+  color: #64748b;
+}
+
+.search-icon {
+  width: 20px;
+}
+.active-category {
+  color: #0967d2;
+}
+.active-rating {
+  color: #0967d2;
+}
+
+@media (min-width: 768px) {
+  .category {
+    font-size: 18px;
+  }
+  .category-heading {
+    font-size: 25px;
+  }
+  .rating-text {
+    font-size: 20px;
+  }
+  .search-input {
+    font-size: 16px;
+  }
+}
